@@ -64,6 +64,10 @@ img{
     margin-left: auto;
 }
 
+*:focus{
+    outline: 2px dashed #7296EC;
+}
+
 /* Site-Header-Top */
 .site-header {
 }
@@ -106,6 +110,22 @@ img{
 .currency-rates-type {
     color: #2959CE;
 }
+
+/* global-serach-form; */
+
+.global-search-form-input{
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 60px;
+    border: 0;
+    font-size: 14px;
+    line-height: normal;
+}
+
+/* lang-toggler */
+
 .long-toggle {
     display: flex;
     margin-right: 25px;
@@ -129,7 +149,4 @@ img{
     background-color: #fff;
     color: #000;
 }
-.button {
-}
-.button-primary {
-}
+
