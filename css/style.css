@@ -573,6 +573,10 @@ img{
 
 /* Contact-page */
 
+.contact-page-content{
+    display: flex;
+}
+
 .contact-page-heading {
     margin-top: 0;
     font-size:24px;
@@ -591,8 +595,43 @@ img{
     display: flex;
     flex-direction: column;
 }
-.form {
+
+/* Defition card */
+
+.definition-card{
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #F6F6F6;
+    color: #000;
 }
+
+.contact-page-info {
+    width: 494px;
+    margin-left: 10px;
+}
+
+.difinitions-card-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.difinitions-card-item:not(:last-child){
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.difination-card-title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.difination-card-value {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Form */
 
 .form-goups-wrapper{
     display: flex;
@@ -620,10 +659,3 @@ img{
     min-height: 180px;
     resize: vertical;
 }
-.form-field-textarea {
-}
-.button {
-}
-.button-primary {
-}
-
