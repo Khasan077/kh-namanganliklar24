@@ -136,6 +136,10 @@ img{
     border: 0;
     font-size: 14px;
     line-height: normal;
+    background-image: url(/img/search.svg);
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
 }
 
 /* lang-toggler */
